@@ -1,0 +1,109 @@
+.menu {
+  height: 100%;
+  min-height: 720px;
+  max-height: 1120px;
+  background-image: url(../images/background_menu.svg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.menu__title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 24px;
+  max-width: 845px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.subtitle {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 845px;
+  padding-bottom: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.cards {
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+}
+
+.card__filtro {
+  max-width: 540px;
+  width: 100%;
+}
+
+.card__expresso {
+  max-width: 540px;
+  width: 100%;
+}
+
+.card__produtos-de-padaria {
+  max-width: 540px;
+  width: 100%;
+}
+
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+}
+
+.card__content {
+  padding: 16px 0 0 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__list-item {
+  padding: 16px 0 0 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span.card__list-divider {
+  /* border-bottom: 1px solid #838383; */
+  height: 1px;
+  background-color: #838383;
+  width: 100%;
+  display: block;
+}
