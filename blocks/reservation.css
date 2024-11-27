@@ -25,7 +25,7 @@
   margin-right: 0;
 }
 
-.reservation__form_label {
+.reservation__form-label {
   max-width: 385px;
   margin: auto;
   padding-top: 40px;
@@ -51,7 +51,7 @@
   align-items: center;
 }
 
-.reservation__item_input {
+.reservation__item-input {
   padding: 15px 20px 15px 20px;
 }
 
