@@ -5,7 +5,7 @@
   overflow: hidden; /*  Garante que o círculo não transborda para fora do rodapé  */
 }
 
-.footer::before {
+.footer__circle::before {
   content: "";
   position: absolute;
   top: -128px;
@@ -61,17 +61,6 @@
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0;
-}
-
-.footer__circle {
-  height: 340px;
-  width: 340px;
-  left: -44px;
-  top: -128px;
-  border-radius: 50%;
-  background-color: #2f80ed;
-  z-index: -1;
-  position: absolute;
 }
 
 .footer__copyright > p {

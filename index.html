@@ -7,6 +7,7 @@
     <meta name="author" content="Murilo C S Peres" />
     <meta name="description" content="sprint 04" />
     <meta name="keywords" content="coffe, web, desenvolvimento" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,11 +37,6 @@
   <body>
     <div class="page">
       <header class="header">
-        <img
-          src="./images/inside_coffee_shop.png"
-          alt="Café Biblieteca Peaks"
-          class="header__image"
-        />
         <nav class="nav">
           <img
             src="./images/logo_coffeeshop_dark.svg"
@@ -62,20 +58,38 @@
             </li>
           </ul>
         </nav>
-        <h1 class="header__title">
-          Café especial
-          <span class="header__span-accent">na biblioteca Triple Peaks</span>
-        </h1>
-        <p class="header__description">
-          Bem-vindo à nossa zona de estudo! Temos aquele cafezinho para
-          energizar você e vibrações aconchegantes para ajudá-lo a ser criativo.
-        </p>
-        <div class="header__footer">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          "
+        >
           <div>
-            <p class="header__paragraph">Horários:</p>
-            <p class="header__paragraph">Segunda a sexta (10:00 - 19:00)</p>
-            <p class="header__paragraph">Sábado a Domingo (11:00 - 18:00)</p>
+            <h1 class="header__title">
+              Café especial
+              <span class="header__span-accent"
+                >na biblioteca Triple Peaks</span
+              >
+            </h1>
+            <p class="header__description">
+              Bem-vindo à nossa zona de estudo! Temos aquele cafezinho para
+              energizar você e vibrações aconchegantes para ajudá-lo a ser
+              criativo.
+            </p>
           </div>
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="Café Biblieteca Peaks"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <ul class="header__paragraph">
+            <li>Horários:</li>
+            <li>Segunda a sexta (10:00 - 19:00)</li>
+            <li>Sábado a Domingo (11:00 - 18:00)</li>
+          </ul>
           <p class="header__paragraph header__paragraph-address">
             200 Succes Avenue, a cidade de Triple Peaks
           </p>
@@ -196,6 +210,7 @@
         </section>
       </main>
       <footer class="footer">
+        <div class="footer__circle"></div>
         <section id="contatos" class="footer__content">
           <img
             src="./images/logo_coffeeshop_light.svg"
